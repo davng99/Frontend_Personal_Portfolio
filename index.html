@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!-- Font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Devicon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+
+    <!-- Data aos animation css  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./Images/icon.jpg" type="image/x-icon">
+    <title>David Nguyen</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                &lt;DAVIDCODES&gt;
+            </a>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="main-section">
+
+        <section id="home">
+            <header class="header" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                <div data-aos="fade-up" class="hi">Hi</div>
+                <h1 data-aos="fade-up">I'm David Nguyen</h1>
+                <h2 data-aos="fade-up">Fullstack Developer <br> based in Vienna.</h2>
+            </header>
+            <div data-aos="fade-up" data-aos-duration="2000">
+                <a href="Lebenslauf.pdf" download="CV" class="btn-CV">Download CV</a>
+                <a href="https://github.com/davng99" class="btn-GitHub">
+                    GitHub
+                    <i class="fa-brands fa-github fa-xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/david-nguyen-9b4a8123a/" class="btn-GitHub">
+                    LinkedIn
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="about">
+            <header class="header" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <h1>About me</h1>
+
+                <div class="header-content" data-aos="fade-up">
+                    <img src="Images/david.jpg" alt="myPic" class="img-david">
+                    <div class="aboutme">
+                        <b class="first-letter">I'</b>m David from Vienna.
+                        <br><br>
+                        My portfolio is a representation of all
+                        that I've learned and accomplished as a Fullstack Web Developer student. I want to start my career as a Web Developer.
+                        <!-- <br><br> I enjoy building
+                        responsive web apps with beautiful interfaces and user experiences that
+                        positively impacts the world.  -->
+                        <br><br>
+                        <b class="first-words">My Hobbies</b> are playing cards with friends, video
+                        games,
+                        watching Football games, Anime and Netflix.
+                    </div>
+                </div>
+            </header>
+
+            <div class="education-heading" data-aos="fade-up" data-aos-duration="800"
+                data-aos-anchor-placement="top-bottom">
+                <h1>Experience</h1>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline" data-aos="fade-up" data-aos-duration="1000">
+                    <ul>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">Jun. 2022 - Jun. 2022</h3>
+                                <h1>Junior System Engineer</h1>
+                                <h4>Scientific Games International GmbH</h4>
+                                <br>
+                                <p>Network support for around 300 workstations</p>
+                                <p>Installation of notebooks/laptops, mobile phones and Windows updates</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">Feb. 2022 - Apr. 2022</h3>
+                                <h1>Freelancer IT</h1>
+                                <h4>Itec Informationssysteme AG</h4>
+                                <br>
+                                <p>Rollout support project at Vienna Airport</p>
+                                <p>Exchange of the gate PCs from Windows 7 to Windows 10 and associated peripheral
+                                    devices as well as SITA airport software on around 500 clients</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">Dec. 2021 - Dec. 2021</h3>
+                                <h1>Junior IT Administrator</h1>
+                                <h4>Arealis Liegenschaftsmanagement GmbH</h4>
+                                <br>
+                                <p>Laptop rollouts, smartphones and software installation</p>
+                                <p>Analysis and documentation of error situations that have occurred</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="education-heading" data-aos="fade-up" data-aos-duration="800"
+                data-aos-anchor-placement="top-bottom">
+                <h1>Education</h1>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline" data-aos="fade-up" data-aos-duration="1000">
+                    <ul>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">Oct. 2022 - Dec. 2022</h3>
+                                <h1>CodeFactory Vienna</h1>
+                                <h3>Certificate</h3>
+                                <p>Backend Web Development
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">Sept. 2022 - Oct. 2022</h3>
+                                <h1>CodeFactory Vienna</h1>
+                                <h3>Certificate</h3>
+                                <p>Frontend Web Development
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">Sept. 2018 - Oct. 2020</h3>
+                                <h1>HTL Mödling</h1>
+                                <h3>Matura & Diplomarbeit</h3>
+                                <p>Aufbaulehrgang für Berufstätige für Informatik
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">Sept. 2014 - Jun. 2018</h3>
+                                <h1>HTL Mödling</h1>
+                                <h3>Fachschulabschluss</h3>
+                                <p>Fachschule: Elektronik und technische Informatik
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">Sept. 2013 - Jun. 2014</h3>
+                                <h1>Polytechnische Schule</h1>
+                                <h3>Schulabschluss</h3>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="skills">
+            <header class="header" data-aos="fade-up" data-aos-duration="600" data-aos-anchor-placement="top-bottom">
+                <h1>Skills</h1>
+            </header>
+            <div class="skills-container">
+                <h3 data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="top-bottom">Frontend</h3>
+                <div class="frontend" data-aos="fade-up" data-aos-duration="900" data-aos-anchor-placement="top-bottom">
+                    <div class="skills-content">
+                        <i class="devicon-html5-plain"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="skills-content">
+                        <i class="devicon-css3-plain"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="skills-content">
+                        <i class="devicon-bootstrap-plain"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div class="skills-content">
+                        <i class="devicon-sass-plain"></i>
+                        <p>SCSS</p>
+                    </div>
+                    <div class="skills-content">
+                        <i class="devicon-javascript-plain"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skills-content">
+                        <i class="devicon-typescript-plain"></i>
+                        <p>TypeScript</p>
+                    </div>
+                    <div class="skills-content">
+                        <i class="devicon-angularjs-plain"></i>
+                        <p>Angular</p>
+                    </div>
+                </div>
+
+                <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">Backend</h3>
+                <div class="backend" data-aos="fade-up" data-aos-duration="1100" data-aos-anchor-placement="top-bottom">
+                    <div class="skills-content">
+                        <i class="devicon-mysql-plain-wordmark"></i>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="skills-content">
+                        <i class="devicon-php-plain"></i>
+                        <p>PHP</p>
+                    </div>
+                    <div class="skills-content">
+                        <i class="devicon-symfony-original"></i>
+                        <p>Symfony</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <header class="header" data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
+                <h1>My work</h1>
+            </header>
+            <div class="projects-container">
+                <div class="project" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="project-title">Food Blog Page</div>
+                    <img src="Images/project-1.jpg" alt="survey" class="project-img">
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Code Review 1</div>
+                        <h4 class="folio-item__title">Food Blog Page</h4>
+                        <div class="folio-item__cat">HTML & CSS</div>
+                        <div class="project-btns">
+                            <a href="https://github.com/davng99/FE17-CR1-David" class="btn-gitHub">GitHub</a> 
+                            <a href="./CR1/index.html" class="btn-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="project-title">Weekly Task Page</div>
+                    <img src="Images/project-2.jpg" alt="survey" class="project-img">
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Code Review 2</div>
+                        <h4 class="folio-item__title">Weekly Task Page</h4>
+                        <div class="folio-item__cat">HTML, CSS, Bootstrap & JavaScript</div>
+                        <div class="project-btns">
+                            <a href="https://github.com/davng99/FE17-CR2-David" class="btn-gitHub">GitHub</a>
+                            <a href="./CR2/index.html" class="btn-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="project-title">Restaurant Delivery Page</div>
+                    <img src="Images/project-3.jpg" alt="survey" class="project-img">
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Code Review 3</div>
+                        <h4 class="folio-item__title">Restaurant Delivery Page</h4>
+                        <div class="folio-item__cat">HTML, CSS, Bootstrap, TypeScript & Angular</div>
+                        <div class="project-btns">
+                            <a href="https://github.com/davng99/FE17-CR3-David" class="btn-gitHub">GitHub</a>
+                            <a href="./CR3/index.html" class="btn-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="project-title">CodeFactory Landing Page</div>
+                    <img src="Images/project-4.jpg" alt="survey" class="project-img">
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Angular Project</div>
+                        <h4 class="folio-item__title">CodeFactory Landing Page</h4>
+                        <div class="folio-item__cat">HTML, CSS, Bootstrap, TypeScript & Angular</div>
+                        <div class="project-btns">
+                            <a href="https://github.com/davng99/Frontend_Team_Project" class="btn-gitHub">GitHub</a>
+                            <a href="./Frontend-Project/index.html" class="btn-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="project-title">Media Library</div>
+                    <img src="Images/project-5.jpg" alt="survey" class="project-img">
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Core Review 4</div>
+                        <h4 class="folio-item__title">Media Library</h4>
+                        <div class="folio-item__cat">MySQL, PHP, Bootstrap</div>
+                        <div class="project-btns">
+                            <a href="https://github.com/davng99/BE17-CR4-David" class="btn-gitHub">GitHub</a>
+                            <a href="./CR4/index.php" class="btn-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="project-title">Rent A Pet</div>
+                    <img src="Images/project-6.jpg" alt="survey" class="project-img">
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Core Review 5 </div>
+                        <h4 class="folio-item__title">Rent A Pet</h4>
+                        <div class="folio-item__cat">MySQL, PHP, Bootstrap</div>
+                        <div class="project-btns">
+                            <a href="https://github.com/davng99/BE17_CR5_David" class="btn-gitHub">GitHub</a>
+                            <!-- <a href="./CR5/index.php" class="btn-demo">Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-container" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom">
+                <h1>Contact me</h1>
+                <p>If you have any questions?</p>
+                <p>I'm looking forward to your message!</p>
+                <div class="main-contact" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-anchor-placement="top-bottom">
+                    <div class="contact-type">
+                        <i class="fa-solid fa-phone fa-xl"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+4367762043429">+43 677 62043429</a>
+                    </div>
+                    <div class="contact-type">
+                        <i class="fa-solid fa-envelope fa-xl"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:davidnguyen030499@gmail.com">
+                            davidnguyen030499@gmail.com
+                        </a>
+                    </div>
+
+                    <!-- <div class="contact-type">
+                        <a href="contact.php" class="btn-message">
+                            Send me a message
+                            <i class="fa-solid fa-envelope fa-md"></i>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- JS  -->
+    <script src="./script.js"></script>
+
+    <!-- Data aos animation js  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
