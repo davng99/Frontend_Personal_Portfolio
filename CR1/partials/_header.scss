@@ -1,0 +1,52 @@
+// Header
+
+header{
+
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        padding: 10px;
+
+        img{
+            width: 100px;
+        }
+
+        .icon-left{
+
+            input{
+                height: 35px;
+                width: 200px;
+                padding: 0 5px;
+                border-radius: 10px;
+                text-align: left;
+            }
+
+            i{
+                margin: 0 10px;
+            }
+        }
+    }
+
+    .navigation-bar{
+        height: 60px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            transition: ease-in-out 0.3s;
+
+            &:hover{
+                font-size: 20px;
+                color: red;
+            }
+        }
+    }
+}

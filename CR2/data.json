@@ -1,0 +1,56 @@
+let weekly_tasks = `[
+    {
+        "taskName":"Washing clothes",
+        "img":"./Images/washing_clothes.jpg",
+        "description":"Washing my clothes every week",
+        "importance": 0
+    },
+    {
+        "taskName":"Cleaning",
+        "img":"./Images/room-cleaning.jpg",
+        "description":"Weekly cleaning in my room",
+        "importance": 0
+    },
+    {
+        "taskName":"Shopping",
+        "img":"./Images/buy_food.jpg",
+        "description":"Shop for weekly groceries at Billa and Hofer.",
+        "importance": 0
+    },
+    {
+        "taskName":"Netflix",
+        "img":"./Images/watching-netflix.webp",
+        "description":"Relax mode: Watching netflix",
+        "importance": 0
+    },
+    {
+        "taskName":"Book",
+        "img":"./Images/reading-book.webp",
+        "description":"Reading a book to free my brain",
+        "importance": 0
+    },
+    {
+        "taskName":"Gym",
+        "img":"./Images/gym.jpg",
+        "description":"Weight training",
+        "importance": 0
+    },
+    {
+        "taskName":"Playing YuGiOh at Locals",
+        "img":"./Images/yugioh.jpg",
+        "description":"Sunday at locals",
+        "importance": 0
+    },
+    {
+        "taskName":"Amazon package",
+        "img":"./Images/pickingup_package.jpg",
+        "description":"Picking up my Package at the post office",
+        "importance": 0
+    },
+    {
+        "taskName":"Pay rent",
+        "img":"./Images/miete.jpg",
+        "description":"Next pay rent in October",
+        "importance": 0
+    }
+]`;

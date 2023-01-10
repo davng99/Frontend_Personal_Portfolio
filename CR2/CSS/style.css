@@ -1,0 +1,67 @@
+.bell-box{
+    position: relative;
+    width: 50px;
+}
+
+.bell-box div{
+    color: white;
+    left: 12px;
+    top: 5px;
+    padding: 2px 6px;
+    font-size: 8px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.image-cover{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.cover-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-box h1{
+    position: absolute;
+    color: white;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+#sort-priority:hover{
+    border-color: rgb(195, 201, 174);
+    background-color: rgb(199, 183, 183);
+}
+
+.weekly-image{
+    height: 220px;
+    object-fit: cover;
+}
+
+.importance{
+    margin-left: 5px;
+}
+
+.importance-color{
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.priority{
+    display: flex;
+    align-items: center;
+}
+
+.priority i {
+    margin-right: 5px;
+}

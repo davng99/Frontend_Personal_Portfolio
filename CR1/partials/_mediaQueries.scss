@@ -1,0 +1,106 @@
+@media screen and (max-width: 580px) {
+    body{
+        header{
+    
+            .header-top{
+                .icon-left{
+                    input{
+                        height: 25px;
+                        width: 150px;
+                    }
+                }
+            }
+            .navigation-bar{
+                a{
+                    font-size: 12px;
+                    transition: ease-in-out 0.4s;
+
+                    &:hover{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    
+        main{
+            #grid-container{
+                grid-template-columns: 1fr;
+                gap: 10px 10px;
+            }
+
+            // Recipe Of The Month Page
+            #recipe{
+                width: 100%;
+                
+                h1{
+                    font-size: 30px;
+                }
+
+                figure{
+
+                    img{ 
+                        width: 100%;
+                    }
+                }
+
+                ul{
+                    border: 1px solid black;
+                    padding: 20px;
+                    border-radius: 25px;
+                    margin: 30px auto;
+                    width: 80%;
+
+                    li{
+                        margin-left: 30px;
+                    }
+                }
+            }
+
+            //About
+            #about-section{
+
+                p{
+                    line-height: 2em;
+                }
+                .about-container{
+
+                    .about-heading{
+                        margin-top: 20px;
+                    }
+                }
+            }
+
+        }
+
+        footer{
+            .footer-links{
+                a{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 876px) {
+    body{
+    
+        main{
+            //About
+            #about-section{
+
+                p{
+                    line-height: 2em;
+                }
+                .about-container{
+                    grid-template-columns: 1fr;
+
+                    .about-heading{
+                        margin-top: 20px;
+                    }
+                }
+            }
+
+        }
+    }
+}

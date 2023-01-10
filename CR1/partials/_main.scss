@@ -1,0 +1,125 @@
+// Main
+    
+main{
+    padding: 50px 20px;
+
+    #grid-container{
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        gap: 20px 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    
+        .item{
+            position: relative;
+            transition: ease-in-out .3s;
+            border-radius: 20px;
+            overflow: hidden;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+    
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;      
+            }
+    
+            .item-text{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                color: white;
+                text-align: center;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.555);
+
+                p{
+                    padding: 5px 0;
+                }
+            }
+        }
+    }
+
+    // Recipe Of The Month Page
+    #recipe{
+        width: 100%;
+        
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+
+        figure{
+            margin-top: 20px;
+            text-align: center;
+
+            img{ 
+                width: 70%;
+                border-radius: 20px;
+            }
+
+            figcaption{
+                text-align: center;
+                font-style: italic;
+            }
+        }
+
+        ul{
+            border: 1px solid black;
+            padding: 40px;
+            border-radius: 25px;
+            margin: 30px auto;
+            width: 60%;
+
+            li{
+                margin-left: 30px;
+
+                p{
+                    margin: 5px 0;
+                    span{
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+
+    //About page
+
+    #about-section{
+        padding: 0 40px;
+
+        p{
+            line-height: 2.5em;
+        }
+
+        .about-container{
+            margin-bottom: 20px;
+
+            .img-container{
+                margin: 0 auto;
+                
+                img{
+                    height: 400px;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 25px;
+                }
+            }
+
+            .about-heading{
+                
+                h1{
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+
+                padding: 20px;
+                
+            }
+        }
+    }
+}

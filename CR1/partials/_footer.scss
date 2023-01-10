@@ -1,0 +1,36 @@
+ // Footer
+
+ footer{
+    background-color: black;
+    text-align: center;
+    height: 20vh;
+
+    .footer-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+
+        a{
+            text-decoration: none;
+            color: white;
+            margin: 0 20px;
+
+            &:hover{
+                color: red;
+            }
+        }
+    }
+
+    .footer-icons
+    {
+        i{
+            color: white;
+            margin: 10px;
+        }
+    }
+
+    p{
+        color: white;
+    }
+}

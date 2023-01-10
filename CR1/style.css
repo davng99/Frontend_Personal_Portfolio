@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
+header .header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 10px;
+}
+header .header-top img {
+  width: 100px;
+}
+header .header-top .icon-left input {
+  height: 35px;
+  width: 200px;
+  padding: 0 5px;
+  border-radius: 10px;
+  text-align: left;
+}
+header .header-top .icon-left i {
+  margin: 0 10px;
+}
+header .navigation-bar {
+  height: 60px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .navigation-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: ease-in-out 0.3s;
+}
+header .navigation-bar a:hover {
+  font-size: 20px;
+  color: red;
+}
+
+main {
+  padding: 50px 20px;
+}
+main #grid-container {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+main #grid-container .item {
+  position: relative;
+  transition: ease-in-out 0.3s;
+  border-radius: 20px;
+  overflow: hidden;
+}
+main #grid-container .item:hover {
+  transform: scale(1.05);
+}
+main #grid-container .item img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #grid-container .item .item-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.555);
+}
+main #grid-container .item .item-text p {
+  padding: 5px 0;
+}
+main #recipe {
+  width: 100%;
+}
+main #recipe h1 {
+  font-size: 40px;
+  text-align: center;
+}
+main #recipe figure {
+  margin-top: 20px;
+  text-align: center;
+}
+main #recipe figure img {
+  width: 70%;
+  border-radius: 20px;
+}
+main #recipe figure figcaption {
+  text-align: center;
+  font-style: italic;
+}
+main #recipe ul {
+  border: 1px solid black;
+  padding: 40px;
+  border-radius: 25px;
+  margin: 30px auto;
+  width: 60%;
+}
+main #recipe ul li {
+  margin-left: 30px;
+}
+main #recipe ul li p {
+  margin: 5px 0;
+}
+main #recipe ul li p span {
+  font-weight: 700;
+}
+main #about-section {
+  padding: 0 40px;
+}
+main #about-section p {
+  line-height: 2.5em;
+}
+main #about-section .about-container {
+  margin-bottom: 20px;
+}
+main #about-section .about-container .img-container {
+  margin: 0 auto;
+}
+main #about-section .about-container .img-container img {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+}
+main #about-section .about-container .about-heading {
+  padding: 20px;
+}
+main #about-section .about-container .about-heading h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  height: 20vh;
+}
+footer .footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+footer .footer-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+}
+footer .footer-links a:hover {
+  color: red;
+}
+footer .footer-icons i {
+  color: white;
+  margin: 10px;
+}
+footer p {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 580px) {
+  body header .header-top .icon-left input {
+    height: 25px;
+    width: 150px;
+  }
+  body header .navigation-bar a {
+    font-size: 12px;
+    transition: ease-in-out 0.4s;
+  }
+  body header .navigation-bar a:hover {
+    font-size: 14px;
+  }
+  body main #grid-container {
+    grid-template-columns: 1fr;
+    gap: 10px 10px;
+  }
+  body main #recipe {
+    width: 100%;
+  }
+  body main #recipe h1 {
+    font-size: 30px;
+  }
+  body main #recipe figure img {
+    width: 100%;
+  }
+  body main #recipe ul {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 30px auto;
+    width: 80%;
+  }
+  body main #recipe ul li {
+    margin-left: 30px;
+  }
+  body main #about-section p {
+    line-height: 2em;
+  }
+  body main #about-section .about-container .about-heading {
+    margin-top: 20px;
+  }
+  body footer .footer-links a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 876px) {
+  body main #about-section p {
+    line-height: 2em;
+  }
+  body main #about-section .about-container {
+    grid-template-columns: 1fr;
+  }
+  body main #about-section .about-container .about-heading {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
