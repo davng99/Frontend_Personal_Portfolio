@@ -442,7 +442,7 @@ input[type="checkbox"] {
   width: 100%;
 }
 
-.projects-container {
+#projects-container {
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -504,6 +504,15 @@ input[type="checkbox"] {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Gothic A1", sans-serif;
   font-size: 1.4rem;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-left: 50px;
+}
+
+.folio-item__description{
+  color: rgba(248, 246, 246, 0.918);
+  font-family: "Gothic A1", sans-serif;
+  font-size: 1rem;
   margin-top: 10px;
   margin-bottom: 0;
   padding-left: 50px;
