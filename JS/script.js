@@ -8,5 +8,4 @@ hamburger.addEventListener('click', () => {
 		: 'menu';
 	
 	mobile_menu.classList.toggle('is-open');
-})
-
+});
